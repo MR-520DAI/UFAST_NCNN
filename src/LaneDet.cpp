@@ -299,7 +299,7 @@ int main()
     cv::Mat img = cv::imread("../img/0.jpg");
 
     clModel clMyModel(pstModelConfig);
-
+    //多执行几次看看是否正常
     for(int i = 0; i < 10; i++)
     {
         clMyModel.GetModelRslt(img);
