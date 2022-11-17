@@ -15,7 +15,6 @@ endif()
 
 include_directories(${INC_DIR} ${OpenCV_INCLUDE_DIRS})
 
-
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(LaneDet ./src/LaneDet.cpp)
